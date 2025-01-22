@@ -1,0 +1,62 @@
+   `html
+   <!DOCTYPE html>
+   <html lang="ru">
+   <head>
+       <meta charset="UTF-8">
+       <title>Слушайте хоспис на вашей платформе</title>
+       <style>
+           body {
+               font-family: Arial, sans-serif;
+               background-color: #121212;
+               color: #ffffff;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+               height: 100vh;
+               margin: 0;
+           }
+           h1 {
+               margin-bottom: 30px;
+               text-align: center;
+           }
+           .buttons a {
+               display: inline-block;
+               margin: 10px;
+               padding: 15px 25px;
+               text-decoration: none;
+               color: #ffffff;
+               border-radius: 8px;
+               transition: opacity 0.3s;
+               width: 200px;
+               text-align: center;
+           }
+           .buttons a.spotify {
+               background-color: #1DB954;
+           }
+           .buttons a.apple {
+               background-color: #FA233B;
+           }
+           .buttons a.yandex {
+               background-color: #FFCC00;
+               color: #000000;
+           }
+           .buttons a.vk {
+               background-color: #4C75A3;
+           }
+           .buttons a:hover {
+               opacity: 0.8;
+           }
+       </style>
+   </head>
+   <body>
+       <h1>Слушайте хоспис на:</h1>
+       <div class="buttons">
+           <a href="https://music.apple.com/at/artist/%D1%85%D0%BE%D1%81%D0%BF%D0%B8%D1%81/1776674945" class="apple" target="_blank">Apple Music</a>
+           <a href="https://open.spotify.com/artist/2BKUr2NgXyLS4aOApyqyDu?si=2hAjdSntRpma12jQ7bVJiw" class="spotify" target="_blank">Spotify</a>
+<a href="https://music.yandex.ru/artist/23182513?utm_medium=copy_link" class="yandex" target="_blank">Яндекс Музыка</a>
+           <a href="https://vk.com/artist/5924174581913722637" class="vk" target="_blank">ВКонтакте</a>
+       </div>
+   </body>
+   </html>
+   ```
